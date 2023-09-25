@@ -6,6 +6,7 @@ on:
       - main
       - master # TODO: Remove this in favor of main eventually?
       - next
+      - rx8
   pull_request:
 
 jobs:
@@ -53,4 +54,4 @@ jobs:
         with:
           name: carplay-web-app.tar.gz
           path: carplay-web-app.tar.gz
-          retention-days: 30
+          retention-days: 365

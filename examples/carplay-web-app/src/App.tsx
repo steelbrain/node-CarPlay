@@ -12,8 +12,8 @@ import { CarPlayWorker } from './worker/types'
 import useCarplayAudio from './useCarplayAudio'
 import { useCarplayTouch } from './useCarplayTouch'
 
-const width = window.innerWidth
-const height = window.innerHeight
+const width = 1024
+const height = 600
 
 const config: Partial<DongleConfig> = {
   width,
